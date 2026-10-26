@@ -1,54 +1,37 @@
-# EduCore LMS — Figma Wireframe Specification
+# EduCore LMS — Wireframe Notes
 
-Use this brief to create the required three low-fidelity wireframes in Figma. Keep the same navigation, spacing, typography, and button styles across screens. Use realistic sample content, but do not use real student personal data.
+I want to keep the first version simple and easy to use. These are the three screens I plan to draw in Figma for Sprint 13.
 
-## Frame 1 — Authentication
-**Suggested desktop frame:** 1440 × 900
+## 1. Login / Register
 
-- Centered EduCore wordmark and short value proposition.
-- Sign in / Create account tabs or a clearly discoverable toggle.
-- Email and password fields with labels, not placeholder-only labels.
-- Primary Sign in button and secondary Create account action.
-- Space for validation feedback and a password-recovery link.
-- Responsive mobile variant with a single-column form.
+- EduCore name at the top
+- Email and password fields
+- Sign in button
+- Link to create an account
+- Space to show a message if a field is missing or incorrect
 
-**States to plan:** default, invalid email, missing required field, loading.
+## 2. Student Dashboard
 
-## Frame 2 — Student Dashboard
-**Suggested desktop frame:** 1440 × 1000
+- Left-side menu with Dashboard, My Courses and Catalog
+- A few summary cards for courses and progress
+- Course cards with title, instructor and a progress indicator
+- A button to continue learning
 
-- Persistent left navigation: Dashboard, My Courses, Course Catalog, Profile.
-- Top bar with page title and learner profile menu.
-- Three summary cards: Active Courses, Average Progress, Learning Hours.
-- Continue Learning section with course cards, instructor, progress bar, and action.
-- Clear empty state for a learner with no enrollments.
-- Responsive mobile variant where navigation collapses to a menu.
+## 3. Course Details
 
-**States to plan:** populated dashboard, no courses, loading/error.
+- Course title and short description
+- Instructor name and category
+- List of lessons
+- Progress indicator
+- Start or continue button for a lesson
 
-## Frame 3 — Course Details / Learning View
-**Suggested desktop frame:** 1440 × 1000
+## Things to check
 
-- Breadcrumb or back-to-catalog action.
-- Course title, category, instructor, short description, and enrollment/continue action.
-- Progress indicator.
-- Lesson list with completion status, duration, and Start/Continue action.
-- Course information and learning outcomes section.
-- Responsive mobile variant with stacked content and full-width actions.
+- Make the layout work on mobile as well as desktop.
+- Use the same buttons, spacing and text styles on all screens.
+- Keep labels clear and make buttons easy to find.
+- Include a simple empty state for a student who has not joined a course yet.
 
-**States to plan:** not enrolled, enrolled/in progress, completed lesson.
+## Figma link
 
-## Consistency and accessibility checklist
-
-- Use consistent spacing and component styles across all three frames.
-- Use clear text contrast and visible keyboard focus styles.
-- Label all form fields and provide useful validation messages.
-- Do not communicate progress or status using color alone.
-- Link the three frames with Figma prototype connections where practical.
-
-## Delivery checklist
-
-- [ ] Create all three frames in Figma.
-- [ ] Add a mobile variant or responsive notes.
-- [ ] Share the Figma file with view access enabled.
-- [ ] Paste the public/viewable Figma URL into the README's **Figma file** section.
+TODO — I'll add the share link here after creating the frames in Figma.
